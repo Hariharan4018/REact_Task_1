@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@reference "tailwindcss";
+body {
+  width: 100vw;
+  height: 100vh;
+}
+#root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
